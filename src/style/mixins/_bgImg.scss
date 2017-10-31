@@ -1,0 +1,5 @@
+@mixin bgImg($url,$l,$t){
+  background-image: url($url);
+  background-repeat: no-repeat;
+  background-position: $l $t;
+}

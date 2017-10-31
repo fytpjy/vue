@@ -1,0 +1,74 @@
+.course{
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #e5e5e5;
+  position: relative;
+  .imgBg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    height: 3rem;
+    width: 3rem;
+    i{
+      margin: auto 0;
+      display: block;
+      width: 2.4rem;
+      height: 2.4rem;
+    }
+  }
+  &.notice {
+    .imgBg i{
+      background: url("../../images/packList/status5.png") center center no-repeat;
+      background-size: auto 90%;
+    }
+  }
+  &.moon{
+    .imgBg i{
+      background: url("../../images/packList/status1.png") center center no-repeat;
+      background-size: auto 90%;
+    }
+    &.active{
+      .imgBg i{
+        background: url("../../images/packList/status2.png") center center no-repeat;
+        background-size: auto 90%;
+      }
+    }
+  }
+  &.sun{
+    .imgBg i{
+      background: url("../../images/packList/status3.png") center center no-repeat;
+      background-size: auto 90%;
+    }
+    &.active{
+      .imgBg i{
+        background: url("../../images/packList/status4.png") center center no-repeat;
+        background-size: auto 90%;
+      }
+    }
+  }
+  .courseCont{
+    width: 100%;
+    height: 3rem;
+    padding-left: 3rem;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    &.new{
+      background: url("../../images/packList/new.png") top right no-repeat;
+      background-size: auto 50%;
+    }
+    
+    .section{
+      font-size: 0.75rem;
+      line-height: 1.4rem;
+      margin-bottom: 0.25rem;
+      color: $dark-gray;
+    }
+    .intro{
+      font-size: 0.7rem;
+      line-height: 1rem;
+      color: $light-gray;
+      @include ellipsis();
+      width: 90%;
+    }
+  }
+}

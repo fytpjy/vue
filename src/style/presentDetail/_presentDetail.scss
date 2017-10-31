@@ -1,0 +1,339 @@
+.presentDetail{
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+}
+.specialBenefit{
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+    .type1{
+        width: 100%;
+        box-sizing: border-box;
+        background: #fff;
+        .bannerBox{
+            width: 100%;
+            height: 13.5rem;
+            box-sizing: border-box;
+            background: #fff8f1;
+            box-shadow: 0 0.1rem 0.1rem rgba(0,0,0,.15);
+            padding-top: 2.1rem;
+            position: relative;
+            .bookCover{
+                display: block;
+                width: 3.9rem;
+                height: 5.45rem;
+                box-sizing: border-box;
+                border: 0.025rem solid #cdd6d7;
+                box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+                margin: 0 auto;
+            }
+            .bookInfo{
+                width: 100%;
+                font-size: 0.7rem;
+                color: #2d2d2c;
+                line-height: 1;
+                text-align: center;
+                position: absolute;
+                top: 8.8rem;
+                left: 0;
+            }
+            .bookPrice{
+                width: 100%;
+                font-weight: 600;
+                font-size: 0.8rem;
+                color: #e91e2e;
+                line-height: 1;
+                text-align: center;
+                text-decoration: line-through;
+                position: absolute;
+                top: 10rem;
+                left: 0;
+            }
+        }
+        .bottomBox{
+            width: 100%;
+            height: 16.675rem;
+            box-sizing: border-box;
+            padding-top: 2.25rem;
+            .dedicationPic{
+                display: block;
+                width: 4.55rem;
+                height: 1.05rem;
+                margin: 0 auto;
+            }
+            .dedicationWords{
+                font-size: 0.85rem;
+                color: #2d2d2c;
+                line-height: 1;
+                text-align: center;
+                margin-top: 1.7rem;
+            }
+            .btn{
+                width: 90.67%;
+                height: 2rem;
+                box-sizing: border-box;
+                border-radius: 0.1rem;
+                box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.2);
+                font-size: 0.7rem;
+                color: #fff;
+                line-height: 2rem;
+                text-align: center;
+                margin: 0 auto;
+                margin-top: 4rem;
+            }
+            .orangeBtn{
+                background: #ffbf00;
+            }
+        }
+    }
+
+}
+.normalBenefit{
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+    .type1{
+        width: 100%;
+        box-sizing: border-box;
+        background: #fff;
+        .bannerBox{
+            width: 100%;
+            height: 13.5rem;
+            box-sizing: border-box;
+            background: #fff8f1;
+            box-shadow: 0 0.1rem 0.1rem rgba(0,0,0,.15);
+            padding-top: 2.05rem;
+            position: relative;
+            .normalBenefitPic{
+                display: block;
+                width: 3.9rem;
+                height: 5.45rem;
+                box-sizing: border-box;
+                border: 0.025rem solid #cdd6d7;
+                box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+                margin: 1rem auto 0;
+            }
+            .normalBenefitWords{
+                width: 100%;
+                font-size: 0.7rem;
+                color: #2d2d2c;
+                line-height: 1;
+                text-align: center;
+                position: absolute;
+                top: 9.55rem;
+                left: 0;
+                padding-top: 0.5rem;
+            }
+        }
+        .bottomBox{
+            width: 100%;
+            height: 16.675rem;
+            box-sizing: border-box;
+            padding-top: 2.25rem;
+            .dedicationPic{
+                display: block;
+                width: 4.55rem;
+                height: 1.05rem;
+                margin: 0 auto;
+            }
+            .dedicationWords{
+                font-size: 0.85rem;
+                color: #2d2d2c;
+                line-height: 1;
+                text-align: center;
+                margin-top: 1.7rem;
+            }
+            .btn{
+                width: 90.67%;
+                height: 2rem;
+                box-sizing: border-box;
+                border-radius: 0.1rem;
+                box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.2);
+                font-size: 0.7rem;
+                color: #fff;
+                line-height: 2rem;
+                text-align: center;
+                margin: 0 auto;
+                margin-top: 4rem;
+            }
+            .orangeBtn{
+                background: #ffbf00;
+            }
+        }
+    }
+
+}
+.type2{
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+    .bannerBox{
+        width: 100%;
+        height: 13.5rem;
+        box-sizing: border-box;
+        background: #fff8f1;
+        box-shadow: 0 0.1rem 0.1rem rgba(0,0,0,.15);
+        padding-top: 0.75rem;
+        position: relative;
+        .userBox{
+            width: 100%;
+            height: 1rem;
+            box-sizing: border-box;
+            .userAvatar{
+                width: 1rem;
+                height: 1rem;
+                border-radius: 50%;
+                float: left;
+                margin-left: 0.8rem;
+            }
+            .userName{
+                font-size: 0.6rem;
+                color: #e91e2e;
+                line-height: 1rem;
+                float: left;
+                margin-left: 0.5rem;
+            }
+            .word{
+                font-size: 0.6rem;
+                color: #2d2d2c;
+                line-height: 1rem;
+                float: left;
+                margin-left: 0.5rem;
+            }
+        }
+        .normalBenefitPic{
+            display: block;
+            width: 3.9rem;
+            height: 5.45rem;
+            box-sizing: border-box;
+            border: 0.025rem solid #cdd6d7;
+            box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+            margin: 1rem auto 0;
+        }
+        .normalBenefitWords{
+            width: 100%;
+            font-size: 0.7rem;
+            color: #2d2d2c;
+            line-height: 1;
+            text-align: center;
+            position: absolute;
+            top: 9.55rem;
+            left: 0;
+        }
+        .bookCover{
+            display: block;
+            width: 3.9rem;
+            height: 5.45rem;
+            box-sizing: border-box;
+            border: 0.025rem solid #cdd6d7;
+            box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+            margin: 0 auto;
+            margin-top: 1.35rem;
+        }
+        .bookInfo{
+            width: 100%;
+            font-size: 0.7rem;
+            color: #2d2d2c;
+            line-height: 1;
+            text-align: center;
+            position: absolute;
+            top: 9.8rem;
+            left: 0;
+        }
+        .bookPrice{
+            width: 100%;
+            font-weight: 600;
+            font-size: 0.8rem;
+            color: #e91e2e;
+            line-height: 1;
+            text-align: center;
+            text-decoration: line-through;
+            position: absolute;
+            top: 11rem;
+            left: 0;
+        }
+    }
+    .bottomBox{
+        width: 100%;
+        height: 16.675rem;
+        box-sizing: border-box;
+        padding-top: 2rem;
+        .dedicationPic{
+            display: block;
+            width: 4.55rem;
+            height: 1.05rem;
+            margin: 0 auto;
+        }
+        .dedicationWords{
+            font-size: 0.7rem;
+            color: #2d2d2c;
+            line-height: 1;
+            text-align: center;
+            margin-top: 0.85rem;
+        }
+        .btn{
+            width: 90.67%;
+            height: 2rem;
+            box-sizing: border-box;
+            border-radius: 0.1rem;
+            box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.2);
+            font-size: 0.7rem;
+            color: #fff;
+            line-height: 2rem;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 3.5rem;
+        }
+        .orangeBtn{
+            background: #ffbf00;
+        }
+        .grayBtn{
+            background: #ccc;
+        }
+        .codeBox{
+            width: 6rem;
+            height: 6rem;
+            box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.2);
+            margin: 0 auto;
+            margin-top: 0.9rem;
+            position: relative;
+            img{
+                width: 6rem;
+                height: 6rem;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -3.1rem;
+                margin-left: -3.1rem;
+            }
+            p{
+                width: 100%;
+                font-size: 0.6rem;
+                color: #666;
+                line-height: 1;
+                text-align: center;
+                position: absolute;
+                top: 6.25rem;
+                left: 0;
+            }
+        }
+    }
+}
+.shadeBox{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 101;
+    position: fixed;
+    top: 0;
+    left: 0;
+    img{
+        width: 12.4rem;
+        height: 4.925rem;
+        position: absolute;
+        top: 0.2rem;
+        right: 1.4rem;
+    }
+}

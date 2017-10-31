@@ -1,0 +1,101 @@
+.privilege{
+    width: 100%;
+    box-sizing: border-box;
+    .rating_page{
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        .privilegeList{
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            background: #fff;
+            padding: 1rem 0.75rem 0.25rem;
+        }
+        .loader_more{
+            margin: 0 auto;
+            font-size: 0.75rem;
+            line-height: 2.5rem;
+            color: #ccc;
+            text-align: center;
+        }
+    }
+}
+.plan{
+    width: 100%;
+    box-sizing: border-box;
+    background: #ccc;
+    border-radius: 0.25rem;
+    padding: 0.75rem 0.75rem 0.5rem 0.75rem;
+    margin-bottom: 0.75rem;
+    .planTitleBox{
+        width: 100%;
+        height: 2.6rem;
+        .planTitle{
+            width: 60%;
+            font-size: 1rem;
+            color: #fff;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            float: left;
+        }
+        .goBtn{
+            max-width: 40%;
+            background: #fff;
+            border-radius: 1rem;
+            font-size: 0.8rem;
+            color: #d3a061;
+            padding: 0.25rem 0.75rem;
+            float: right;
+        }
+    }
+    .moneyBox{
+        width: 100%;
+        font-size: 0.75rem;
+        color: #fff;
+        line-height: 1.5rem;
+        padding-top: 1rem;
+        span{
+            font-size: 0.65rem;
+            float: right;
+        }
+    }
+}
+.plan1{
+    background: #f29239;
+}
+.plan2{
+    background: #9e5727;
+}
+.plan3{
+    background: #ffc362;
+}
+.plan4{
+    background: #af7432;
+}
+.plan5{
+    background: #ff9a26;
+}
+.plan6{
+    background: #167ac7;
+}
+.plan7{
+    background: #5bd69f;
+}
+.plan8{
+    background: #D1995F;
+}
+.plan9{
+    background: #13bf68;
+}
+.plan10{
+    background: #703A4F;
+}
+.plan11{
+    background: #629AD9;
+}
+.plan12{
+    background: #c08d5f;
+}

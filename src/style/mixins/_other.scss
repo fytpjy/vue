@@ -1,0 +1,60 @@
+@mixin ys-abTL($t , $l){
+  position: absolute;
+  top: $t;
+  left: $l;
+}
+@mixin ys-abTR($t , $r){
+  position: absolute;
+  top: $t;
+  right: $r;
+}
+@mixin ys-abBL($b , $l){
+  position: absolute;
+  bottom: $b;
+  left: $l;
+}
+@mixin ys-abBR($b , $r){
+  position: absolute;
+  bottom: $b;
+  right: $r;
+}
+@mixin fixedAll{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@mixin fixedB{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+@mixin flex{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+@mixin flexB{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+@mixin ellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  display: block;
+}

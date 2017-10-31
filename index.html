@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+  <meta name="screen-orientation" content="portrait" />
+  <meta content="yes" name="apple-mobile-web-app-capable">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="full-screen" content="yes">
+  <meta name="x5-fullscreen" content="true">
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+  	<script type="text/javascript" src="static/html2canvas.js"></script>
+    <script type="text/javascript" src="static/qrcode.js"></script>
+    <script type="text/javascript" src="static/swiper-3.4.2.min.js"></script>
+    <script type="text/javascript" src="http://readooapi.youshu.cc/public/js/audioplay.js"></script>
+  <title id="title">微课堂</title>
+</head>
+<body>
+<div id="app">
+  <router-view></router-view>
+</div>
+<script type="text/javascript">
+  // 计算html的font-size  iphone6: font-size=10px;
+  (function(){
+    function resizeBaseFontSize(){
+      var rootHtml = document.documentElement,
+        deviceWidth = rootHtml.clientWidth;
+      if(deviceWidth > 800){
+        deviceWidth = 800;
+      }
+      rootHtml.style.fontSize = deviceWidth /18.75 + "px";
+    }
+    resizeBaseFontSize();
+    window.addEventListener("resize", resizeBaseFontSize, false);
+    window.addEventListener("orientationchange", resizeBaseFontSize, false);
+  })();
+</script>
+</body>
+</html>

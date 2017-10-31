@@ -1,0 +1,23 @@
+.banner{
+  width: 100%;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  &:after{
+    content: " ";
+    padding-top: 37.33%;
+    display: block;
+  }
+  .bannerImg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+}

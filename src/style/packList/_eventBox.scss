@@ -1,0 +1,67 @@
+.eventBox{
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 0.25rem solid #f2f2f2;
+  background: $white;
+  .date{
+    width: 100%;
+    padding: 0 0.75rem;
+    font-size: 0.6rem;
+    line-height: 2rem;
+    height: 2rem;
+    color: $light-gray;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e2e2e2;
+  }
+  .event{
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    position: relative;
+    .img{
+      position: absolute;
+      left: 0.35rem;
+      top: 0.55rem;
+      width: 2.8rem;
+      height: 4rem;
+      box-sizing: border-box;
+      overflow: hidden;
+      text-align: center;
+      @include flex;
+      img{
+        margin: auto;
+        width: 90%;
+        height: auto;
+        max-height: 90%;
+        box-shadow: 0 0 0.2rem rgba(0,0,0,0.3);
+      }
+    }
+    .cont{
+      padding-left: 3.2rem;
+      width: 100%;
+      box-sizing: border-box;
+      .title{
+        font-size: 0.75rem;
+        line-height: 1rem;
+        margin-bottom: 0.2rem;
+        color: $dark-gray;
+      }
+      .author{
+        font-size: 0.5rem;
+        line-height: 0.8rem;
+        margin-bottom: 0.6rem;
+        color: $light-gray;
+      }
+      .tips{
+        font-size: 0.6rem;
+        line-height: 1rem;
+        color: $light-gray;
+      }
+      .eventDate{
+        font-size: 0.6rem;
+        line-height: 1rem;
+        color: gray;
+      }
+    }
+  }
+}

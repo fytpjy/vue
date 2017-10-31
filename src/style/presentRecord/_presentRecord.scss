@@ -1,0 +1,123 @@
+.presentRecord{
+    width: 100%;
+    box-sizing: border-box;
+}
+.pagePart{
+    background: #fafafa;
+    .mint-tab-item{
+        padding-top: 0.8rem;
+        padding-bottom: 0.55rem;
+        .mint-tab-item-label{
+            font-size: 0.712rem;
+            color: #999;
+        }
+    }
+    .mint-tab-item.is-selected{
+        box-sizing: border-box;
+        border-bottom: 0.1rem solid #41b15d;
+        margin-bottom: 0rem;
+        .mint-tab-item-label{
+            color: #41b15d;
+        }
+    }
+}
+.presentTab{
+    .part{
+        width: 100%;
+        box-sizing: border-box;
+        ul{
+            width: 100%;
+            box-sizing: border-box;
+            background: #fff;
+            li{
+                width: 100%;
+                box-sizing: border-box;
+                .presentDiv{
+                    width: 100%;
+                    height: 5.25rem;
+                    box-sizing: border-box;
+                    border-bottom: 0.05rem solid #eee;
+                    padding: 0.75rem 0.85rem 0.675rem 0.725rem;
+                    position: relative;
+                    img{
+                        width: 2.7rem;
+                        height: 3.7rem;
+                        border: 0.025rem solid #dcdcdc;
+                        box-shadow: 0.038rem 0.038rem 0 rgba(0,0,0,.2);
+                    }
+                    .title{
+                        width: 35%;
+                        font-weight: 600;
+                        font-size: 0.7rem;
+                        color: #333;
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 2;
+                        overflow: hidden;
+                        position: absolute;
+                        top: 1.1rem;
+                        left: 4.3rem;
+                    }
+                    .time{
+                        font-size: 0.6rem;
+                        color: #666;
+                        line-height: 1;
+                        position: absolute;
+                        bottom: 1.15rem;
+                        left: 4.3rem;
+                    }
+                    .btn{
+                        width: 2.5rem;
+                        height: 1.25rem;
+                        border-radius: 0.15rem;
+                        font-size: 0.5rem;
+                        color: #fff;
+                        line-height: 1.25rem;
+                        text-align: center;
+                        position: absolute;
+                        top: 1.4rem;
+                        right: 0.85rem;
+                    }
+                    .longBtn{
+                        width: 3rem;
+                        right: 3.85rem;
+                    }
+                    .greenBtn{
+                        background: #41b15d;
+                    }
+                    .grayBtn{
+                        background: #cccccc;
+                    }
+                }
+            }
+        }
+    }
+}
+.Default{
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+    padding-top: 4.9rem;
+    padding-bottom: 22rem;
+    .defaultImg{
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        img{
+            width: 2.45rem;
+            height: auto;
+        }
+        p{
+            font-size: 0.75rem;
+            color: #ccc;
+            line-height: 2.2;
+        }
+    }
+}
+.loader_more{
+    line-height: 2.5rem;
+    font-size: 0.75rem;
+    color: #ccc;
+    text-align: center;
+    margin: 0 auto;
+}

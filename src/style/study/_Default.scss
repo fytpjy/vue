@@ -1,0 +1,36 @@
+.Default{
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  .defaultImg{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    img{
+      width: 3.2rem;
+      height: auto;
+    }
+    p{
+      font-size: 0.75rem;
+      color: #ccc;
+      line-height: 1.5;
+    }
+  }
+  .findBtn{
+    width: 100%;
+    height: auto;
+    padding-top: 10rem;
+    p{
+      width: 60%;
+      height: 2rem;
+      border-radius: 0.25rem;
+      margin: 0 auto;
+      text-align: center;
+      color: $white;
+      font-size: 0.75rem;
+      line-height: 2rem;
+      background: #3dd571;
+    }
+  }
+}
